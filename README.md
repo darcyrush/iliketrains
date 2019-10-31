@@ -1,13 +1,13 @@
 # Notify when the train is approaching
 
-Assumes leaving from Gland.
+Defaults to leaving from Gland.
 PRs welcome.
 
 ## Arguments
 ```
 train_times
    		-d      [D]eparture station (without flag this defaults to Gland)
-      -a      [A]rrival station
+		-a      [A]rrival station
    		-n      prior [N]otification time in minutes
    		-w      [W]alk time to platform in minutes
    		-t      alert [T]ype (window manager or terminal)
