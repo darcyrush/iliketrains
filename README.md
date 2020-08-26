@@ -18,12 +18,12 @@ train_times
 
 ## Crontab example
 ```
-		*/3 16-23 * * 1-5 /PATH/TO/SCRIPT/train_times -a Lausanne -n 20 -w 10 -a gnome
+		*/3 16-23 * * 1-5 /PATH/TO/SCRIPT/train_times -a Lausanne -n 20 -w 10 -t gnome
 ```
 
 ## Bash alias example
 ```
-		alias trains='/PATH/TO/SCRIPT/train_times -a Lausanne -n 20 -w 10 -a debug'
+		alias trains='/PATH/TO/SCRIPT/train_times -a Lausanne -n 20 -w 10 -t debug'
 ```
 
 ## Misc
